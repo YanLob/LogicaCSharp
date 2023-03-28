@@ -30,7 +30,7 @@ namespace CalcularNota
             Console.Write("Digite a nota do 4° Bimentre: ");
             int nota4 = Convert.ToInt32(Console.ReadLine());
 
-            double media = (nota1 + nota2 + nota3 + nota4) / 4;
+            double media = (nota1 + nota2 + nota3 + nota4) /4;
 
             if (media >= 90)
             {

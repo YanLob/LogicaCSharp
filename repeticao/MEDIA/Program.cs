@@ -30,17 +30,18 @@ namespace MEDIA
                 }
                 if (bimestre > 4)
                 {   
-                    mediaAluno += nota / 4;
+                    mediaAluno = nota / 4;
                     Console.WriteLine($"A média do {cont}° é {mediaAluno}");
 
                     mediaTurma += mediaAluno;
-                    Console.WriteLine("Agr outro aluno");
                     bimestre = 1;
                     nota = 0;
-                    
+                    mediaAluno = 0;
                 }
                 cont++;
             }
+
+            Console.WriteLine($"A media da turma é: {mediaTurma / alunos}");
             
         }
     }

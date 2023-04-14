@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEDIA", "MEDIA\MEDIA.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "questao2", "questao2\questao2.csproj", "{0CBEA959-475E-4080-8045-BA2ECFA0A75C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "media-usando-for", "media-usando-for\media-usando-for.csproj", "{8C8BE5EF-8AB7-4251-A325-B12058E0CAC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0CBEA959-475E-4080-8045-BA2ECFA0A75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CBEA959-475E-4080-8045-BA2ECFA0A75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CBEA959-475E-4080-8045-BA2ECFA0A75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C8BE5EF-8AB7-4251-A325-B12058E0CAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C8BE5EF-8AB7-4251-A325-B12058E0CAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C8BE5EF-8AB7-4251-A325-B12058E0CAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C8BE5EF-8AB7-4251-A325-B12058E0CAC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

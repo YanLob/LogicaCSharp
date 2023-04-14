@@ -10,7 +10,6 @@ namespace MEDIA
     {
         static void Main(string[] args)
         {
-            
             int cont = 1;
             int bimestre = 1;
             int mediaAluno = 0;

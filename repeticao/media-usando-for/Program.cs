@@ -34,6 +34,7 @@ namespace @while
                 cont++;
             }
             Console.WriteLine(mediaTurma);
+
         }
     }
 }

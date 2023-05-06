@@ -17,7 +17,7 @@ namespace RPG
             {
                 dano = random.Next(1, 10);
                 vMonstro -= dano;
-
+                 
                 if (vMonstro < 0)
                 {
                     vMonstro = 0;

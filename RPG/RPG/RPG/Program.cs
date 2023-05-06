@@ -49,9 +49,6 @@ namespace RPG
                 Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
                 Console.WriteLine($"O MONSTRO venceu com {vMonstro} de HP!");
             }
-
-            Console.ReadKey();
-
         }
     }
 }

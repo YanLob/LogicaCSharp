@@ -16,7 +16,7 @@ namespace continueEBreack
                 Console.Write("Digite um número: ");
                 int num = Convert.ToInt32(Console.ReadLine());
 
-                if (num<=16 || num>=20) {
+                if (num<=10 || num>=20) {
                     continue;
                 }
                 Console.WriteLine("Número entre 10 e 20!!!");

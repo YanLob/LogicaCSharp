@@ -10,26 +10,25 @@ namespace continueEBreack
     {
         static void Main(string[] args)
         {
-            int soma=0;
-            Random gerador = new Random();
-
             Console.WriteLine("---Continues---");
             for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine($"Digite o {i}° numero: ");
-                int num = (int)(gerador.NextDouble()*6+1);
-                Console.WriteLine("numero: "+num);
-                if (num % 2 != 0)
-                {
+                Console.Write("Digite um número: ");
+                int num = Convert.ToInt32(Console.ReadLine());
+
+                if (num<=16 || num>=20) {
                     continue;
                 }
-                soma += num;
-                Console.WriteLine("soma: " + soma);
-                Console.WriteLine("ABBA");
-
-                if(soma>10) {
-                    Console.WriteLine("contunue deu certo");
+                Console.WriteLine("Número entre 10 e 20!!!");
+                if (num==15)
+                {
+                    Console.WriteLine("Esse numero é 15!");
                     break;
+                }
+                else
+                {
+
+                    Console.WriteLine("numero: "+ num);
                 }
             }
             Console.WriteLine("Encerrado.");

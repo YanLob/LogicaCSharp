@@ -11,7 +11,7 @@ namespace DataEHora
         static void Main(string[] args)
         {
             Console.WriteLine("---Cálculo de idade---");
-            Console.Write("Digite seu ano de nascimento");
+            Console.Write("Digite seu ano de nascimento: ");
             int ano = Convert.ToInt32(Console.ReadLine());
             int dataNasc = DateTime.Now.Year - ano;
 

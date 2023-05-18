@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array", "Array\Array.csproj", "{D223D5AB-9306-4B06-87A3-A9FA51CC8ADE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataEHora3", "..\RPG\DataEHora\ConsoleApp2\DataEHora3.csproj", "{DE7116B1-7C98-4AEE-A858-F810ECD9C454}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D223D5AB-9306-4B06-87A3-A9FA51CC8ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D223D5AB-9306-4B06-87A3-A9FA51CC8ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D223D5AB-9306-4B06-87A3-A9FA51CC8ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7116B1-7C98-4AEE-A858-F810ECD9C454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7116B1-7C98-4AEE-A858-F810ECD9C454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7116B1-7C98-4AEE-A858-F810ECD9C454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7116B1-7C98-4AEE-A858-F810ECD9C454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -12,6 +12,8 @@ namespace ConsoleApp1
         {
             Console.Write("Digite sua data de nascimento: ");
             DateTime data = DateTime.Parse(Console.ReadLine());
+
+            var idade = DateTime
             
             Console.WriteLine(data);
         }

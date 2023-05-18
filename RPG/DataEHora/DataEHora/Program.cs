@@ -4,18 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataEHora
+namespace ConsoleApp2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("---Cálculo de idade---");
-            Console.Write("Digite seu ano de nascimento: ");
-            int ano = Convert.ToInt32(Console.ReadLine());
-            int dataNasc = (DateTime.Now.Year - ano) - 1;
+            Console.Write("Informe sua data de nascimento: ");
+            DateTime dtNascimento = DateTime.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Você tem ou vai fazer {dataNasc} anos.");
+            CalcularIdadeDetalhada(dtNascimento);
+            Console.ReadKey();
+    
+        }
+        static void CalcularIdadeDetalhada(DateTime dtNascimento)
+        {
+            DateTime dtAtual = DateTime.Now;
+            TimeSpan diferença = dtAtual - dtNascimento;
+            DateTime idade = DateTime.MinValue + diferença;
+
+            int anos = idade.Year - 1;
+            int meses = idade.Month - 1;
+            int dias = idade.Day - 1;
+
+            Console.WriteLine("{0} Anos\n {1} Meses\n {2} Dias", anos, meses, dias);
         }
     }
 }

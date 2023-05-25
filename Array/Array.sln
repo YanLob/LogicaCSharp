@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imprimirNumeros", "imprimir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alfabeto", "alfabeto\alfabeto.csproj", "{251A7ADB-490C-48D1-B73D-365973944DD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XP", "XP\XP.csproj", "{71046344-3A66-4AE6-A9AF-2C6111E1ACA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{251A7ADB-490C-48D1-B73D-365973944DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{251A7ADB-490C-48D1-B73D-365973944DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{251A7ADB-490C-48D1-B73D-365973944DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71046344-3A66-4AE6-A9AF-2C6111E1ACA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71046344-3A66-4AE6-A9AF-2C6111E1ACA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71046344-3A66-4AE6-A9AF-2C6111E1ACA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71046344-3A66-4AE6-A9AF-2C6111E1ACA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,7 +48,7 @@ namespace RPG
 
                 Console.WriteLine($"O MONSTRO foi danificado e perdeu {dano} de saúde e agora tem {vMonstro} HP");
 
-
+                
 
                 if (vMonstro > 0)
 

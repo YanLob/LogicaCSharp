@@ -10,9 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
             Console.Write("Digite sua data de nascimento: ");
             DateTime data = DateTime.Parse(Console.ReadLine());
-            
+
             Console.WriteLine(data);
         }
     }

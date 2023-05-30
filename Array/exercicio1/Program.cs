@@ -21,7 +21,7 @@ namespace exercicio1
                     Console.Write($"Digite o {x+1}° valor: ");
                     elementos[x] = Convert.ToInt32(Console.ReadLine());
 
-                    if (elementos[x]<10 || elementos[x]>50)
+                    if (elementos[x]>=10 || elementos[x]<=50)
                     {
                         Console.WriteLine("Tente novamente!");
                         continue;

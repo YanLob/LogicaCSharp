@@ -20,7 +20,7 @@ namespace Array
             {
                 Console.Write($"Digite o {i+1}° nome: ");
                 lista[i] = Console.ReadLine();
-
+                
                 msg += lista[i] + "\n";
                 
             }

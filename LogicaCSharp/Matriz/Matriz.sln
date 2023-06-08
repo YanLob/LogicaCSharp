@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matriz", "Matriz\Matriz.csproj", "{94EAEA62-4FE2-4D35-AABB-B5267D06A9FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "somaMatriz", "somaMatriz\somaMatriz.csproj", "{7A3DA526-F568-477D-AFBF-90D25AEF43E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{94EAEA62-4FE2-4D35-AABB-B5267D06A9FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94EAEA62-4FE2-4D35-AABB-B5267D06A9FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94EAEA62-4FE2-4D35-AABB-B5267D06A9FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3DA526-F568-477D-AFBF-90D25AEF43E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3DA526-F568-477D-AFBF-90D25AEF43E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3DA526-F568-477D-AFBF-90D25AEF43E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3DA526-F568-477D-AFBF-90D25AEF43E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

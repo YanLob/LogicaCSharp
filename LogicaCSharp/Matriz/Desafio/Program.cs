@@ -11,8 +11,8 @@ namespace Desafio
         static void Main(string[] args)
         {
             int[,] enfermaria = new int[4, 5];
-            //int[] media = new int[4];
-            int numPulso = 0, soma = 0, mediaPacien = 0;
+            int[] media = new int[4];
+            int soma = 0, mediaPacien = 0;
 
             for (int pacien = 0; pacien < 4; pacien++)
             {
@@ -22,13 +22,17 @@ namespace Desafio
                     Console.Write($"Digite o pulso {pulso+1}° do {pacien+1}°: ");
                     enfermaria[pacien, pulso] = Convert.ToInt32(Console.ReadLine());
                     soma += enfermaria[pacien, pulso];
-                    //media[pulso] = mediaPacien;
+
                     mediaPacien = soma / 5;
                 }
-                Console.WriteLine("media -> " + mediaPacien);
+                
+                media[pacien] = mediaPacien;
                 soma = 0;
-
-                Console.ReadKey();
+            }
+            Console.WriteLine("Média dos pacientes");
+            foreach (int medias in media)
+            {              
+                Console.Write(medias + "  ");
             }
         }
     }

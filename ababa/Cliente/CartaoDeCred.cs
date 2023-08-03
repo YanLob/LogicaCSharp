@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Cliente
 {
-    public class Conta
+    public class CartaoDeCred
     {
-        public int numero = 0;
-        public double saldo = 0;
-        private double limite = 100;
+
+        public string numero = " ";
+        public string dataDeValidade = "00/00/00";
+
+        
     }
 }

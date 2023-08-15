@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixação", "Fixação\Fixa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "relacionamento", "relacionamento\relacionamento.csproj", "{9CC6C00E-10AA-4118-B9B5-A366D10EFB3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escola", "Escola\Escola.csproj", "{DF6C768A-8241-44C8-B174-8EA931E6467E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9CC6C00E-10AA-4118-B9B5-A366D10EFB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC6C00E-10AA-4118-B9B5-A366D10EFB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC6C00E-10AA-4118-B9B5-A366D10EFB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF6C768A-8241-44C8-B174-8EA931E6467E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF6C768A-8241-44C8-B174-8EA931E6467E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF6C768A-8241-44C8-B174-8EA931E6467E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF6C768A-8241-44C8-B174-8EA931E6467E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "relacionamento", "relaciona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escola", "Escola\Escola.csproj", "{DF6C768A-8241-44C8-B174-8EA931E6467E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metado", "Metado\Metado.csproj", "{B484E7F6-AE98-4A13-A578-D63BE8CE4BB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DF6C768A-8241-44C8-B174-8EA931E6467E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF6C768A-8241-44C8-B174-8EA931E6467E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF6C768A-8241-44C8-B174-8EA931E6467E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B484E7F6-AE98-4A13-A578-D63BE8CE4BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B484E7F6-AE98-4A13-A578-D63BE8CE4BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B484E7F6-AE98-4A13-A578-D63BE8CE4BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B484E7F6-AE98-4A13-A578-D63BE8CE4BB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -60,17 +60,23 @@ namespace Cliente
 
             Conta c1 = new Conta();
             c1.numero = 1;
-            c1.saldo = 99;
+            c1.saldo = 2000;
 
             Console.WriteLine("\nNúmero: " + c1.numero);
             Console.WriteLine("Saldo => R$" + c1.saldo);
 
             Conta c2 = new Conta();
             c2.numero = 2;
-            c2.saldo = 56;
+            c2.saldo = 1000;
 
             Console.WriteLine("\nNúmero: " + c2.numero);
             Console.WriteLine("Saldo => R$" + c2.saldo);
+
+            Funcionario func1 = new Funcionario();
+            func1.nome = "Matias";
+            func1.salario = 1080;
+            func1.AumentarSalario(10);
+            func1.ImprimirDados();
         }
     }
 }

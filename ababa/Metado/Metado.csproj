@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0737721E-5964-48AA-A647-7A30147CBAF4}</ProjectGuid>
+    <ProjectGuid>{B484E7F6-AE98-4A13-A578-D63BE8CE4BB5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Cliente</RootNamespace>
-    <AssemblyName>Cliente</AssemblyName>
+    <RootNamespace>Metado</RootNamespace>
+    <AssemblyName>Metado</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agencia.cs" />
-    <Compile Include="CartaoDeCred.cs" />
-    <Compile Include="Cliente.cs" />
     <Compile Include="Conta.cs" />
-    <Compile Include="Funcionario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

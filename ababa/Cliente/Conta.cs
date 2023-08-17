@@ -10,6 +10,34 @@ namespace Cliente
     {
         public int numero = 0;
         public double saldo = 0;
-        private double limite = 100;
+        public double limite = 100;
+
+        public void Depositar(double valor)
+        {
+            this.saldo += valor;
+        }
+
+        public void Sacar (double valor)
+        {
+            this.saldo -= valor;
+        }
+
+        public double ConsultarSaldo()
+        {
+            return saldo + limite;
+        }
+
+        public void ImprimirExtrato()
+        {
+            DateTime dt = DateTime.Now;
+            string data = dt.ToShortDateString();
+            string hora = dt.ToShortTimeString();
+            Console.WriteLine("\n\t\t---Extrato detalhado---");
+
+            Console.WriteLine("\nData: " + data);
+            Console.WriteLine("\nHora: " + hora);
+            Console.WriteLine($"Saldo: {this.saldo}");
+            Console.WriteLine($"Limite: {this.limite}");
+        }
     }
 }

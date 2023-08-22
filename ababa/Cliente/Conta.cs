@@ -11,20 +11,30 @@ namespace Cliente
         public int numero = 0;
         public double saldo = 0;
         public double limite = 100;
+        public int id;
 
         public void Depositar(double valor)
         {
-            this.saldo += valor;
+            saldo += valor;
         }
 
         public void Sacar (double valor)
         {
-            this.saldo -= valor;
+            saldo -= valor;
         }
 
         public double ConsultarSaldo()
         {
             return saldo + limite;
+        }
+
+        public void Transferir(Conta contaDest, double transferencia)
+        {
+            if ( saldo > transferencia )
+            {
+                Depositar(transferencia);
+                contaDest.saldo += transferencia;
+            }
         }
 
         public void ImprimirExtrato()
@@ -36,7 +46,7 @@ namespace Cliente
 
             Console.WriteLine("\nData: " + data);
             Console.WriteLine("\nHora: " + hora);
-            Console.WriteLine($"Saldo: {this.saldo}");
+            Console.WriteLine($"Saldo: {saldo}");
             Console.WriteLine($"Limite: {this.limite}");
         }
     }

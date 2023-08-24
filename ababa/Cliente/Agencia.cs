@@ -9,5 +9,10 @@ namespace Cliente
     public class Agencia
     {
         public int numAgenc;
+
+        public Agencia (int numAgenc)
+        {
+            this.numAgenc = numAgenc;
+        }
     }
 }

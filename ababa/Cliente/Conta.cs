@@ -8,10 +8,15 @@ namespace Cliente
 {
     public class Conta
     {
-        public int numero = 0;
+        public int numero;
         public double saldo = 0;
         public double limite = 100;
-        public int id;
+        public Agencia agencia;
+
+        public Conta (Agencia agencia)
+        {
+            this.agencia = agencia;
+        }
 
         public void Depositar(double valor)
         {
@@ -32,7 +37,7 @@ namespace Cliente
         {
             if ( saldo > transferencia )
             {
-                Depositar(transferencia);
+                Sacar(transferencia);
                 contaDest.saldo += transferencia;
             }
         }
@@ -46,7 +51,7 @@ namespace Cliente
 
             Console.WriteLine("\nData: " + data);
             Console.WriteLine("\nHora: " + hora);
-            Console.WriteLine($"Saldo: {saldo}");
+            Console.WriteLine($"Saldo: {saldo:c2}");
             Console.WriteLine($"Limite: {this.limite}");
         }
     }

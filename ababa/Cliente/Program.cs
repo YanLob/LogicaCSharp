@@ -36,11 +36,9 @@ namespace Cliente
             Console.WriteLine("Nome: " + elias.nome);
             #endregion
 
-            CartaoDeCred cart1 = new CartaoDeCred();
-            Agencia agen1 = new Agencia();
-            cart1.numero = "1231231231213123-00";
-            cart1.dataDeValidade = "12/12/2023";
-            agen1.numAgenc = 1825;
+            CartaoDeCred cart1 = new CartaoDeCred(1825);
+            Agencia agen1 = new Agencia(4560);
+            cart1.dataDeValidade = "09/01/2004";
 
             Console.WriteLine("\nCartão: " + cart1.numero);
             Console.WriteLine("Data de validade: " + cart1.dataDeValidade);
@@ -48,11 +46,8 @@ namespace Cliente
 
             //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-            CartaoDeCred cart2 = new CartaoDeCred();
-            Agencia agen2 = new Agencia();
-            cart2.numero = "112543516345123-10";
-            cart2.dataDeValidade = "12/12/2025";
-            agen2.numAgenc = 9845;
+            CartaoDeCred cart2 = new CartaoDeCred(2026, "12/12/2023");
+            Agencia agen2 = new Agencia(9043);
 
             Console.WriteLine("\nCartão: " + cart2.numero);
             Console.WriteLine("Data de validade: " + cart2.dataDeValidade);
@@ -70,11 +65,11 @@ namespace Cliente
             geren.AumentoSalarial();
             geren.ImprimirDados();
 
-            Conta c1 = new Conta();
-            Conta c2 = new Conta();
+            Conta c1 = new Conta(agen1);
+            Conta c2 = new Conta(agen2);
             c1.saldo = 2000;
-            c2.saldo = 1000;
-            c1.Transferir(c1, 1000);
+            c2.saldo = 2000;
+            c1.Transferir(c2, 1000);
             c1.ImprimirExtrato();
             c2.ImprimirExtrato();
         }

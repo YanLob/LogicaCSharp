@@ -9,9 +9,17 @@ namespace Cliente
     public class CartaoDeCred
     {
 
-        public string numero = " ";
-        public string dataDeValidade = "00/00/00";
+        public int numero;
+        public string dataDeValidade;
 
-        
+        public CartaoDeCred(int numero)
+        {
+            this.numero = numero;
+        }
+
+        public CartaoDeCred(int numero, string dataDeValidade) : this(numero)
+        {
+            this.dataDeValidade = dataDeValidade;
+        }
     }
 }

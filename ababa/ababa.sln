@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metado", "Metado\Metado.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometria", "ListaDeExercicioPOO\Geometria.csproj", "{BC2EC28A-EDC4-4855-83F0-D70150D326B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ababavaba", "ababavaba\ababavaba.csproj", "{E85CF9AE-1A95-4BB3-920D-CBA8E41EFE44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bomba", "Bomba\Bomba.csproj", "{18C8D8BF-3594-4356-BBEE-40BBA6085BFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{BC2EC28A-EDC4-4855-83F0-D70150D326B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC2EC28A-EDC4-4855-83F0-D70150D326B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC2EC28A-EDC4-4855-83F0-D70150D326B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85CF9AE-1A95-4BB3-920D-CBA8E41EFE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85CF9AE-1A95-4BB3-920D-CBA8E41EFE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85CF9AE-1A95-4BB3-920D-CBA8E41EFE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85CF9AE-1A95-4BB3-920D-CBA8E41EFE44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C8D8BF-3594-4356-BBEE-40BBA6085BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C8D8BF-3594-4356-BBEE-40BBA6085BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C8D8BF-3594-4356-BBEE-40BBA6085BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C8D8BF-3594-4356-BBEE-40BBA6085BFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
